@@ -80,18 +80,18 @@ int main()
 	// Below code is for your understanding on how actually data is stored in matrix
 	//Remove comments and run again
 	
-	/*
 	
-	cout<<"students array";
+	
+	cout<<"students array\n"<<endl;
 	for (int i = 0 ; i < size ; i++ ){
-		cout<<students[i][0]<<"   "<<students[i][1]<<endl;
+		cout<<students[i][0]<<"\t"<<students[i][1]<<endl;
 	}
-	cout<<"marks array";
+	cout<<"marks array\n\n";
 	for (int i = 0 ; i < size ; i++ ){
-		cout<<marks[i][0]<<"   "<<marks[i][1]<<"   "<<marks[i][2]<<endl;
+		cout<<marks[i][0]<<"\t"<<marks[i][1]<<"\t"<<marks[i][2]<<endl;
 	}
 	
-	*/
+	
 	
   	return 0;
 }
