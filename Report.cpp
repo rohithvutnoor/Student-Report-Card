@@ -71,5 +71,21 @@ int main()
 		cout<<"-------------*Report Card*-------------\n\n\n\n";
 	}
 	
+	// Below code is for your understanding on how actually data is stored in matrix
+	//Remove comments and run again
+	
+	/*
+	
+	cout<<"students array";
+	for (int i = 0 ; i < size ; i++ ){
+		cout<<students[i][0]<<"   "<<students[i][1]<<endl;
+	}
+	cout<<"marks array";
+	for (int i = 0 ; i < size ; i++ ){
+		cout<<marks[i][0]<<"   "<<marks[i][1]<<"   "<<marks[i][2]<<endl;
+	}
+	
+	*/
+	
   	return 0;
 }
