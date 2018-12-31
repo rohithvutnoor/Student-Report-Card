@@ -14,10 +14,15 @@ int main()
 	 	student1	1
  		student2	2
  		student3	3
+ 		
+ 		first row in a students matrix -> student 1 details
+ 		second row in a students matrix -> student 2 details
+ 		...
  	*/
  	int marks[size][3];		//'marks' array to store marks of 3(can be changed) subjects
  	/*
  		Math	Phy		Chem
+ 		
  		95		96		96
  		91		98		94
  		97		99		98
@@ -27,8 +32,9 @@ int main()
  		.
  		depends on size(number of students)
  		
-		first row in a mtrix -> student 1 details
- 		second row in a matrix -> student 2 details
+		first row in a marks matrix -> student 1 marks
+ 		second row in a marks matrix -> student 2 marks
+ 		...
  	*/
  	
 	for (int i = 0 ; i < size ; i++ ){		//run a loop for no of students to get data
